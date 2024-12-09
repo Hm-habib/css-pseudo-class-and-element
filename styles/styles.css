@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+body{
+    background-color: white;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+#firstline{
+    
+    text-align: center;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  /* height: 20px 10px 20px 10px; */
+  margin-top: 40px;
+  position: sticky;
+  color: white;
+
+
+}
+
+nav > a:hover{
+    background-color: none;
+    color: blue;
+    font-size: 35px;
+}
+
+#home{
+    height: 80px;
+    width: 100px;
+    /* background-color: aquamarine; */
+}
+
+
+
+#logo{
+   text-align: left;
+   /* width: 100px; */
+   /* display: inline; */
+   margin-left: 20px;
+   position: absolute;
+   top: 30px;
+   left: 50px;
+   cursor: pointer;
+
+}
+
+
+
+#dashboard{
+    background-color: antiquewhite;
+    height: 30px;
+   text-align: center;
+   font-size: 20px;
+
+}
+
+#container{
+    background-image: url("/src/pexels-instawally-176851.jpg");
+    margin: 100px 40px;
+    padding: 30px 20px;
+    height: 500px;
+    /* display: inline; */
+}
+
+.text1{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+}
+
+#cell3{
+   position: absolute;
+   right: 100px;
+   
+   height: 40px;
+   width: 300px;
+   text-align: center;
+   color: white;
+}
+#cell3:hover{
+    background-color: lightblue;
+    color: blue;
+    cursor: pointer;
+}
+
+#cell1{
+    position: absolute;
+    margin-top: 15px;
+    right: 100px;
+    
+    height: 40px;
+    width: 380px;
+    text-align: center;
+}
+
+#cell1:hover{
+    background-color: lightblue;
+    color: blue;
+    cursor: pointer;
+}
+
+#cell2{
+    position: absolute;
+    margin-top: 20px;
+    right: 100px;
+    
+    height: 40px;
+    width: 380px;
+    text-align: center;
+    /* border: none; */
+}  
+
+#cell2:hover{
+    background-color: lightblue;
+    color: blue;
+    cursor: pointer;
+    /* border: none; not working */
+}
+
+#btn{
+    height: 50px;
+    width: 80px;
+    position: absolute;
+    margin-bottom: 100px;
+    top: 600px;
+    left: 100px;
+    font-size: 15px;
+}
+
+#btn:hover{
+    background-color: lightblue;
+    color: blue;
+    cursor: pointer;
+    font-size: 20px;
+    height: 60px;
+    width: 90px;
+}
+
+.text2{
+    text-align: left;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;  
+  margin-top: 100px;
+  color: white;
+}
+
+.text3{
+    text-align: left;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px; 
+  margin-top: 100px;
+  color: white;
+}
+
+#listitem{
+    background-color: lightgray;
+    height: 300px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    text-align: left;
+    /* position: absolute; */
+    margin: 50px;
+}
+#footer{
+    text-align: left;
+    font-family: "Poppins", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px; 
+  text-align: right;
+  /* position: absolute; */
+  background-color: whitesmoke;
+ 
+
+}
